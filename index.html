@@ -1,0 +1,76 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miguel Taveras Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading" class="" style="display: none;">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"><canvas class="particles-js-canvas-el" width="562" height="649" style="width: 100%; height: 100%;"></canvas></div>
+    <div id="box" style="display: none;">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="" style="animation-delay:2.2s;">work</a>
+    
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Miguel Taveras</h1>
+      <center><img src="https://media-exp1.licdn.com/dms/image/D4E03AQGrP8grJHKtPA/profile-displayphoto-shrink_400_400/0/1669170269941?e=1675296000&v=beta&t=VonkVFYUL2HatJgW5IkJD5_zok1Bp7p2I-x3YD7WkAQ" height="250" width="200"></center>
+        <h2>Junior Web Developer / Blogger/ Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">About</a>
+            <a onclick="showwork()">Portfolio</a>
+                 
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h3>Portfolio</h3>
+        <section>
+            <h2>Web Developer</h2>
+            <p>
+                I create Websites for all types of businesses, including construction companies and Entertainment websites. I write Blogs to inspire the world! Below are the links to Linkedin, where i post all my blogs, and my work on Github.
+            </p>
+            
+          
+     
+            
+          <a href='https://www.linkedin.com/in/miguel-taveras-52b005208'><button>Linkedin</button></a>
+            <a href='https://github.com/migueltaveras/'>
+              <button>Github</button></a>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h2>Who Am I?</h2>
+            <section>
+                <h2>About me</h2>
+                <p>
+                    Hello, My name is Miguel Taveras, I am a junior web developer/Blogger from Queens, New York. I can make web pages for businesses, bloggers, and anyone who needs a webpage done. I turn ideas into reality and create websites and blogs using HTML, CSS, Javascript and my imagination. My contact details are below.
+                </p>
+                <p>
+                   Contact Details:
+                  <p><a href="mailto:migueltaverasceo@gmail.com">Email Contact</a></p>
+               <a href='https://www.linkedin.com/in/miguel-taveras-52b005208'><button>Linkedin</button></a>
+
+                </p>
+            </section>
+            
+        </div>
+         
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+</body></html>
